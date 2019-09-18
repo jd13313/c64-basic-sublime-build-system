@@ -1,0 +1,3 @@
+{
+	"cmd": ["/full/path/to/build.sh", "$file_base_name"]
+}
