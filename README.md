@@ -7,5 +7,5 @@ Also this was a quick/dirty solution I threw together out of frustration for lac
 
 * Install [VICE](http://vice-emu.sourceforge.net/)
 * build.sh should be good to go as-is if you're looking to convert .bas to .prg for the C64. [petcat](https://www.mankier.com/1/petcat) has some good docs so build.sh can easily be updated to output for a different platform if needed.
-* In SublimeText, click "Tools" -> "Build System" -> "New Build System" and copy/paste the contents of c64-basic.sublime-build to it. Alternatively you can just move the file itself over to wherever Sublime keeps its build system config files.
+* In SublimeText, click "Tools" -> "Build System" -> "New Build System" and copy/paste the contents of c64-basic.sublime-build to it. Alternatively you can just move the file itself over to wherever Sublime keeps its build system config files. Either way, be sure to update the path to build.sh!
 * To use it, select "Tools" -> "Build System" and select "c64-basic". Then from an open .bas file you can use CTRL+B to convert the file to .prg and run it via VICE
